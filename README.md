@@ -12,7 +12,14 @@ A repository for Stamplay Type Definition Files (.d.ts) to support TypeScript's 
 
 4) Enjoy strong typing and intellisense (only tested in [Visual Studio Code](https://code.visualstudio.com/))
 
+
+
+### Screenshot 1
 ![](http://imgur.com/2jpiCYK.jpg)
+
+
+### Screenshot 2
+![](http://imgur.com/ElZ6rdG.jpg)
 
 ## Todo:
 - Throughfully test typings API
