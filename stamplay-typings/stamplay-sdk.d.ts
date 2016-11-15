@@ -158,49 +158,27 @@ interface IStripe {
 interface IQuery extends Q.IPromise<any>{
 
 	greaterThan(attr: string, value) : IQuery
-
 	greaterThanOrEqual(attr: string, value) : IQuery
-
 	lessThan(attr: string, value) : IQuery
-
 	lessThanOrEqual(attr: string, value) : IQuery
-
 	pagination(page, per_page) : IQuery
-
 	between(attr: string, value1, value2) : IQuery
-
 	equalTo(attr: string, value) : IQuery
-
 	notEqualTo(attr: string, value) : IQuery
-
 	exists(attr: string) : IQuery
-
 	notExists(attr: string) : IQuery
-
 	sortAscending(attr: string) : IQuery
-
 	sortDescending(attr: string) : IQuery
-
 	populate() : IQuery
-
 	populateOwner() : IQuery
-
 	select(...attr: string[]) : IQuery
-
 	regex(attr: string, regex, options) : IQuery
-
-	near(type, coordinates, maxDistance, minDistance) : IQuery
-    
+	near(type, coordinates, maxDistance, minDistance) : IQuery  
 	nearSphere(type, coordinates, maxDistance, minDistance) : IQuery
-
 	geoIntersects(type, coordinates) : IQuery
-
 	geoWithinGeometry(type, coordinates) : IQuery
-
 	geoWithinCenterSphere(coordinates, radius) : IQuery
-
 	or(...query:IQuery[]) : IQuery
-
 	exec(callback?: CallbackType) : IQuery
 }
 
