@@ -21,7 +21,3 @@ A repository for Stamplay Type Definition Files (.d.ts) to support TypeScript's 
 ### Screenshot 2
 ![](http://imgur.com/ElZ6rdG.jpg)
 
-## Todo:
-- Throughfully test typings API
-- Include embedded documentation JSDoc
-
